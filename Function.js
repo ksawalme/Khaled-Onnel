@@ -1,19 +1,18 @@
 
-// function welcomeMentors() {
-//     console.log("Hello Mozafar");
-//     console.log("Hello Rares");
-//     console.log("Hello Tim");
-//     console.log("Hello Ashleigh");
-//     console.log("Hello Gordon");
-// Exercise: write an improved version of this function
-
 // function printHelloFiveTimes() {
-// var hi = "Hello"
-// for (var x = 0; x<5; x++)
-// console.log(hi)
-
+//   console.log("Hello");
+//   console.log("Hello");
+//   console.log("Hello");
+//   console.log("Hello");
+//   console.log("Hello");
 // }
-// printHelloFiveTimes()
+function printHelloFiveTimes() {
+var hi = "Hello"
+for (var x = 0; x<5; x++)
+console.log(hi)
+
+}
+printHelloFiveTimes()
 
 ////////////////////////////////////////
 
@@ -26,13 +25,13 @@
 // }
 
 // 
-// function welcomeMentors() {
-//   var mentorNames = ['Mozafar', 'Rares', 'Tim', 'Ashleigh', 'Gordon']
-//   mentorNames.forEach((mentor) =>{
-// console.log("Hello " + mentor)
-// })
-// }
-// welcomeMentors()
+function welcomeMentors() {
+  var mentorNames = ['Alan', 'Lorenzo', 'Shoan', 'Lucy', 'Harry','Lura','Poul']
+  mentorNames.forEach((mentor) =>{
+console.log("Hello " + mentor)
+})
+}
+welcomeMentors()
 
 // function welcomeMentors() {
 //   let arr = ['a', 'b', 'c', 'd']
@@ -55,7 +54,7 @@ function Mynetincome(salary, taxCode, incomeTax1, incomeTax2, ownsCar) {
   if (taxCode === "1150L") {
     nationalInsurance = salary * 0.1;
   }
-      else if (taxCode === "ST") {
+     else if (taxCode === "ST") {
     nationalInsurance = salary * 0.05;
   } 
      else {
